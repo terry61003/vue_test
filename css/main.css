@@ -1,0 +1,31 @@
+html, body {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none; }
+  html ::-webkit-scrollbar, body ::-webkit-scrollbar {
+    display: none; }
+
+.loginpage {
+  background-color: green;
+  height: 100vh;
+  padding: 2rem; }
+  .loginpage .image img {
+    margin-left: calc(50% - 129px);
+    margin-left: -webkit-calc(50% - 129px); }
+  .loginpage .inputgroup {
+    text-align: center; }
+    .loginpage .inputgroup input {
+      border-radius: 20px;
+      width: 80%;
+      height: 80px;
+      padding: 10px;
+      margin: 0 auto 3rem;
+      display: block; }
+  .loginpage .buttongroup {
+    margin: 0 auto;
+    width: 5rem; }
+    .loginpage .buttongroup button {
+      margin: 0 auto;
+      display: block;
+      width: 3rem; }
+
+/*# sourceMappingURL=main.css.map */

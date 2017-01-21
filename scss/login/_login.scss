@@ -1,0 +1,37 @@
+.loginpage {
+    background-color: green;
+    height : 100vh;
+    padding: 2rem;
+    .image {
+        img {
+            margin-left: calc(50% - 129px);
+            margin-left: -webkit-calc(50% - 129px);
+        }
+    }
+    .inputgroup {
+        text-align: center; //文字
+        
+        input[type="password"]::-webkit-input-placeholder
+        {
+            
+        }
+        input {
+            border-radius: 20px;
+            width: 80%;
+            height: 80px;
+            padding : 10px;
+            margin: 0 auto 3rem; 
+            display: block;
+            
+        }
+    }
+    .buttongroup {
+        margin: 0 auto;
+        width: 5rem;
+        button {
+            margin: 0 auto;
+            display: block;
+            width: 3rem;
+        }
+    }
+}

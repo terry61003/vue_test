@@ -1,0 +1,12 @@
+html, body{
+    //ie scrollBar隱藏
+    -ms-overflow-style: none;
+    //chrome,safari scrollBar隱藏
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    //FireFox scrollBar隱藏
+    overflow: -moz-scrollbars-none;
+    
+
+}
