@@ -5,11 +5,11 @@
     .image {
         img {
             margin-left: calc(50% - 129px);
-            margin-left: -webkit-calc(50% - 129px);
+            margin-left: -webkit-calc(50% - 129px);    //置中1  webkit相容性  50%loginpage div大小 - 大小/2
         }
     }
     .inputgroup {
-        text-align: center; //文字
+        text-align: center; //置中2 文字
         
         input[type="password"]::-webkit-input-placeholder
         {
@@ -31,7 +31,7 @@
         button {
             margin: 0 auto;
             display: block;
-            width: 3rem;
+            width: 3rem;    //置中三配合width
         }
     }
 }
